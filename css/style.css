@@ -1,0 +1,194 @@
+
+/* font family */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+ /* variable  */
+:root{
+
+    /* language  */
+    --robo: "Roboto", sans-serif;
+    --lato: "Lato", sans-serif;
+
+    /* color  */
+    --c_bl: #000000;
+    --c_wt: #ffffff;  
+    --c_com: #333333;
+    --c_menu: #969696;
+
+
+}
+
+/* Common Css Start */
+
+body{
+    font-family: var(--lato);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--c_com);
+}
+
+/* Header Start  */
+
+header{
+    margin: 10px 0 ipo !importan4;
+    
+  
+}
+.c-nbar{
+    display: flex;
+    align-items: center;
+}
+
+.bnd-text{
+    font-family: var(--lato);
+    font-size: 32px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: var(--c_com);
+    
+}
+
+
+.cm-bar li a {
+    margin-right: 20px;
+    font-size: 18px;
+    color: var(--c_menu);
+
+}
+.cm-bar li:last-child a {
+    margin-right: 0;
+
+}
+
+/* header end  */
+
+/* banner start  */
+
+.hero-section{
+    background-image: url('../images/niproBanner.jpg') !important;
+    background-size: cover !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+}
+
+
+
+.title{
+    color: #333333 !important;
+    text-decoration: none;
+}
+
+
+.b-h1{
+    padding: 0;
+    padding-top: 220px;
+
+}
+.b-p1{
+    padding: 40px 110px 40px 0;
+}
+.h-btn{
+    border-radius: 0 !important;
+    margin-bottom: 100px;
+}
+
+.c-ci{
+    justify-content: flex-start;
+    margin-left: 0 !important;
+}
+
+/* banner end  */
+
+/* about section  */
+
+.about-text::before{
+    content: "";
+    display: inline-block;
+    width: 2px;
+    height: 60px;    
+    background-color: #000;
+    vertical-align: middle;
+}
+
+.box{
+
+    position: relative;
+    border: 1px solid var(--c_com);
+    text-align: center;  
+
+}
+.b-icon{    
+
+    position: absolute;
+    top: -35px;
+    left: 42%;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(254, 254, 254);
+    font-size: 50px;
+    border-radius: 50%;
+   
+
+}
+.about-1{
+    margin-top: 100px;
+}
+
+.ab-image{
+    width: 85%;
+    text-align: left;
+    
+}
+
+.ab-image img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.a-border{
+    border: 1px solid #333;
+    padding: 8px 15px;
+}
+
+.about-1 .text-part{
+    color: #333;
+    line-height: 1.8em;
+}
+
+/* about section end  */
+
+/* fitured section start */
+
+/* featured section  */
+
+.featured{
+    margin-top: 120px;
+    background-color: #f8f8f8;
+
+}
+
+.featured-text::before{
+    content: "" ;
+    display: inline-block;
+    width: 2px;
+    height: 60px;    
+    background-color: #333;
+    vertical-align: center;
+}
+.f-menu li:first-child{
+    margin-right: 20px;
+    border: 1px solid #333;
+}
+.f-menu li a{
+    text-transform: uppercase;
+    color: #333;
+}
+
+.fsi-img{
+    width: 95%;
+
+}
